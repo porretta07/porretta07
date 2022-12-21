@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+</head>
+<style>
+    p{
+        text-align: right;
+        color: aqua;
+    }
+    h1{}
+    table, th,td,tr{
+        text-align: center;
+        border: 2px solid red
+    }
+    #negato{
+        color: blue;
+    }
+</style>
+<body>
+    <h1>Creare articolo con DeMorgan</h1>
+    <table>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td id="negato">A</td>
+            <td id="negato">B</td>
+            <td>A∙B</td>
+            <td>A+B</td>
+            <td id="negato">A∙B</td>
+            <td id="negato">A+B</td>
+            <td id="negato">_ _<br>A+B</td>
+            <td id="negato">_ _<br>A∙B</td>
+            <td id="negato">____<br>A+B</td>
+            <td id="negato">____<br>A+B</td>
+            
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>0</td>
+            <td id="negato">1</td>
+            <td id="negato">1</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>0</td>
+            <td>0</td>
+            
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>1</td>
+            <td id="negato">1</td>
+            <td id="negato">0</td>
+            <td>0</td>
+            <td>1</td>
+            <td>1</td>
+            <td>0</td>
+            <td>1</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>0</td>
+            <td id="negato">0</td>
+            <td id="negato">1</td>
+            <td>0</td>
+            <td>1</td>
+            <td>1</td>
+            <td>0</td>
+            <td>1</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1</td>
+            
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>1</td>
+            <td id="negato">0</td>
+            <tad id="negato">0</td>
+            <td>1</td>
+            <td>1</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1</td>
+            <tad>1</td>
+        </tr>
+     </table>
+    
+</body>
+</html>
